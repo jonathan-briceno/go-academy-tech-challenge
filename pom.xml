@@ -78,6 +78,8 @@
 			<version>2.6.1</version>
 			<scope>compile</scope>
 		</dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -92,6 +94,27 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eluder.coveralls</groupId>
+				<artifactId>coveralls-maven-plugin</artifactId>
+				<version>4.3.0</version>
+				<configuration>
+					<repoToken>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</repoToken>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>cobertura-maven-plugin</artifactId>
+				<version>2.7</version>
+				<configuration>
+					<format>xml</format>
+					<maxmem>256m</maxmem>
+					<!-- aggregated reports for multi-module projects -->
+					<aggregate>true</aggregate>
 				</configuration>
 			</plugin>
 		</plugins>
