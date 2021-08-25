@@ -14,9 +14,6 @@ import java.util.function.Predicate;
 @EnableSwagger2
 public class SpringFoxConfig {
 
-    @Configuration
-    @EnableSwagger2
-    public class SwaggerConfig {
         @Bean
         public Docket productApi() {
             return new Docket(DocumentationType.SWAGGER_2)
@@ -25,5 +22,4 @@ public class SpringFoxConfig {
                     .paths(PathSelectors.any())
                     .build();
         }
-    }
 }
