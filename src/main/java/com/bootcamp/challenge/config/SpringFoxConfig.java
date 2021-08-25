@@ -15,10 +15,10 @@ import java.util.function.Predicate;
 public class SpringFoxConfig {
 
         @Bean
-        public Docket productApi() {
+        public Docket dogApi() {
             return new Docket(DocumentationType.SWAGGER_2)
                     .select()
-                    .apis(RequestHandlerSelectors.basePackage("com.bootcamp.challenge.controller"))
+                    .apis(RequestHandlerSelectors.basePackage("com.bootcamp.challenge.controller.dogs"))
                     .paths(PathSelectors.any())
                     .build();
         }

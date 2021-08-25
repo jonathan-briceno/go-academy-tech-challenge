@@ -1,4 +1,4 @@
-package com.bootcamp.challenge.controller;
+package com.bootcamp.challenge.controller.dogs;
 
 import com.bootcamp.challenge.client.DogRestTemplate;
 import com.bootcamp.challenge.model.Dog;
