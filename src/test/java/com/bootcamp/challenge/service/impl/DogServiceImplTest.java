@@ -52,5 +52,4 @@ public class DogServiceImplTest {
         Assert.assertEquals(0, result.size());
     }
 
-
 }

@@ -1,5 +1,6 @@
 package com.bootcamp.challenge.controller;
 
+import com.bootcamp.challenge.client.DogRestTemplate;
 import com.bootcamp.challenge.model.Dog;
 import com.bootcamp.challenge.service.DogService;
 import org.springframework.beans.factory.annotation.Autowired;
