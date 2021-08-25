@@ -1,5 +1,13 @@
-com/bootcamp/challenge/ChallengeApplication.class
-com/bootcamp/challenge/utils/Constants.class
 com/bootcamp/challenge/service/HelloWorldService.class
 com/bootcamp/challenge/controller/HelloWorldController.class
+com/bootcamp/challenge/service/DogService.class
+com/bootcamp/challenge/controller/DogController.class
+com/bootcamp/challenge/model/Dog$DogBuilder.class
+com/bootcamp/challenge/ChallengeApplication.class
+com/bootcamp/challenge/config/RestTemplateConfig.class
+com/bootcamp/challenge/model/Dog.class
+com/bootcamp/challenge/client/DogRestTemplate.class
+com/bootcamp/challenge/client/DogRestTemplate$1.class
 com/bootcamp/challenge/service/impl/HelloWorldServiceImpl.class
+com/bootcamp/challenge/utils/Constants.class
+com/bootcamp/challenge/service/impl/DogServiceImpl.class
