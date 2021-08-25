@@ -24,7 +24,6 @@ This API has two endpoints available
 
 Once the app is up you can also try the API from the API's swagger on: ```http://localhost:8080/api/swagger-ui.html``` from the browser 
 
-
 ## Technical Specs
 
 - Java 8 (1.8.0_241)
