@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.bootcamp.challenge.service.impl.HelloWorldServiceTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.988 s - in com.bootcamp.challenge.service.impl.HelloWorldServiceTest

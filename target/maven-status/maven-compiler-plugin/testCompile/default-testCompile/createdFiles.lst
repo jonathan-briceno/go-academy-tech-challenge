@@ -1,2 +1,3 @@
-com/bootcamp/challenge/service/impl/HelloWorldServiceTest.class
+com/bootcamp/challenge/service/impl/DogServiceImplTest.class
+com/bootcamp/challenge/service/impl/HelloWorldServiceImplTest.class
 com/bootcamp/challenge/ChallengeApplicationTests.class

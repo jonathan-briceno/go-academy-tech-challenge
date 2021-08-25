@@ -10,7 +10,7 @@ import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
 @TestPropertySource(locations = "classpath:./application.properties")
-public class HelloWorldServiceTest {
+public class HelloWorldServiceImplTest {
 
     @Autowired
     HelloWorldServiceImpl helloWorldService;
