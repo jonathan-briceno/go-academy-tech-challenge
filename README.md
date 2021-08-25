@@ -6,7 +6,7 @@
 
 ## How to Run This App 
 
-### from the command line 
+### From the command line 
 
 Place yourself on the repository's root folder i.e ```/user/docs/go-academy-tech-challenge```
 
