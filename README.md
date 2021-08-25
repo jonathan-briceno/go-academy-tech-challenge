@@ -2,9 +2,7 @@
 
 ## Status Overview 
 
-[![Build Status](https://app.travis-ci.com/jonathan-briceno/go-academy-tech-challenge.svg?branch=main)](https://app.travis-ci.com/jonathan-briceno/go-academy-tech-challenge)
-
-[![Coverage Status](https://coveralls.io/repos/github/jonathan-briceno/go-academy-tech-challenge/badge.svg)](https://coveralls.io/github/jonathan-briceno/go-academy-tech-challenge)
+[![Build Status](https://app.travis-ci.com/jonathan-briceno/go-academy-tech-challenge.svg?branch=main)](https://app.travis-ci.com/jonathan-briceno/go-academy-tech-challenge) [![Coverage Status](https://coveralls.io/repos/github/jonathan-briceno/go-academy-tech-challenge/badge.svg)](https://coveralls.io/github/jonathan-briceno/go-academy-tech-challenge)
 
 ## How to Run This App 
 
