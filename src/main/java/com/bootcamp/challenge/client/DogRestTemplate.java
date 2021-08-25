@@ -19,6 +19,9 @@ public class DogRestTemplate {
     @Value("${dog.api.url}")
     private String dogApiUrl;
 
+    @Value("${dog.api.key}")
+    private String dogApiKey;
+
     @Autowired
     private RestTemplate restTemplate;
 
@@ -26,7 +29,7 @@ public class DogRestTemplate {
 
         HttpHeaders headers = new HttpHeaders();
         headers.set("User-agent", "Java/1.8.0_131");
-        headers.set("x-api-key", "596d23f9-9196-4db1-b70f-2c30e5a29509");
+        headers.set("x-api-key", dogApiKey);
         HttpEntity<String> requestEntity = new HttpEntity<>(null, headers);
         ResponseEntity<List<Dog>> response =
                 restTemplate.exchange(
