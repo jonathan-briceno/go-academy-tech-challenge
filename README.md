@@ -16,7 +16,7 @@ and run
 
 ### How to use this app 
 
-This app has two endpoints available
+This API has two endpoints available
 
 ```GET http://localhost:8080/api/hello-world``` where you will get the classic "Hello, World."
 
