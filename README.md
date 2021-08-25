@@ -10,7 +10,9 @@
 
 Place yourself on the repository's root folder i.e ```/user/docs/go-academy-tech-challenge```
 
-and run 
+run ```mvn clean install``` to build the app 
+
+and then run 
 
 ```mvn spring-boot:run```
 
