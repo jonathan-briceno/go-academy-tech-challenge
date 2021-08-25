@@ -22,7 +22,14 @@ This API has two endpoints available
 
 ```GET http://localhost:8080/api/hello-world``` where you will get the classic "Hello, World."
 
-```GET http://localhost:8080/api/v1/dogs/breed/{dogName}``` where you will get summarized information from certain dog breeds (i.e hound, shih tzu, terrier)  
+```GET http://localhost:8080/api/v1/dogs/breed/{dogName}``` where you will get summarized information from certain dog breeds
+
+The input dogName can be as the following: hound, shih tzu, terrier, etc and it will return all dogs which name contain that word. 
+
+You can also send single letters like: ```m``` and you will get results than contain that letter like: Alaskan Malamute or American Foxhound
+
+You can also send partial parts of the name like: ```chi``` and you will get results like Chihuahua and Chinese Crested 
+  
 
 Once the app is up you can also try the API from the API's swagger on: ```http://localhost:8080/api/swagger-ui.html``` from the browser 
 
