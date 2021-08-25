@@ -8,13 +8,24 @@
 
 ### from the command line 
 
-place yourself on the repository's root folder i.e ```/user/docs/go-academy-tech-challenge```
+Place yourself on the repository's root folder i.e ```/user/docs/go-academy-tech-challenge```
 
 and run 
 
 ```mvn spring-boot:run```
 
-## Technical Specs 
+### How to use this app 
+
+This app has two endpoints available
+
+```GET http://localhost:8080/api/hello-world``` where you will get the classic "Hello, World."
+
+```GET http://localhost:8080/api/v1/dogs/breed/{dogName}``` where you will get summarized information from certain dog breeds (i.e hound, shih tzu, terrier)  
+
+Once the app is up you can also try the API from the API's swagger on: ```http://localhost:8080/api/swagger-ui.html``` from the browser 
+
+
+## Technical Specs
 
 - Java 8 (1.8.0_241)
 - Maven 3.6.3 
